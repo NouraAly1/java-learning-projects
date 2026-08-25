@@ -23,8 +23,8 @@ public class BMI {
         // Print a summary of the entered data and the calculated BMI
         System.out.printf("Name: %s%n" , name);
         System.out.printf("Age: %d years %n " , age);
-        System.out.printf("Weight: %f kg %n" , weight );
-        System.out.printf("Height: %f m %n" , height);
+        System.out.printf("Weight: %.2f kg %n" , weight );
+        System.out.printf("Height: %.2f m %n" , height);
         System.out.printf("BMI: %.2f%n", bmiValue); // two decimal places
         input.close();
     }
