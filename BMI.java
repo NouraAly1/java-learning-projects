@@ -6,7 +6,7 @@ public class BMI {
         Scanner input = new Scanner(System.in);
 
         System.out.printf("Enter your name: ");
-        String name = input.next();
+        String name = input.nextLine();
 
         System.out.printf("Enter your age: ");
         int age = input.nextInt();
@@ -21,10 +21,11 @@ public class BMI {
         double bmiValue = weight / (height * height);
 
         // Print a summary of the entered data and the calculated BMI
-        System.out.println("Name: " + name);
-        System.out.println("Age: " + age + "years");
-        System.out.println("Weight: " + weight + "kg");
-        System.out.println("Height: " + height + "m");
+        System.out.printf("Name: %s%n" , name);
+        System.out.printf("Age: %d years %n " , age);
+        System.out.printf("Weight: %f kg %n" , weight );
+        System.out.printf("Height: %f m %n" , height);
         System.out.printf("BMI: %.2f%n", bmiValue); // two decimal places
+        input.close();
     }
 }
