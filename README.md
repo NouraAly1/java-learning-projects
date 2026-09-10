@@ -102,4 +102,4 @@ I keep each project small enough to read in one sitting, with comments that expl
 
 I am a Computer Science bachelor's student graduating in 2027, with a current GPA of 4.0. I am applying for internships and using this repository to show consistent practice in Java. If you are reviewing my application, the latest projects in this repo are the best picture of where I am right now.
 
-I also know Python at an intermediate level. Right now I am studying data structures and algorithms, Database I (almost complete), and communications and networking.
+Java is my main preferred language. I am using it now to learn data structures and algorithms and Database I (almost complete). I also know Python at an intermediate level; that work is in [My_Journey_Learning_Python](https://github.com/NouraAly1/My_Journey_Learning_Python). I am also studying communications and networking.
