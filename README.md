@@ -52,7 +52,9 @@ java CourseSystem.Main
 | [Course System](CourseSystem/) | Enroll students in courses, assign grades, update/remove records | multiple classes, `static` catalog, `HashMap` |
 | [Student Management System](StudentManagementSystem/) | GUI to manage students and course grades | Swing GUI, `ArrayList`, `HashMap` |
 | [Car Rental System](CarRentalSystem/) | Add cars, motorcycles, and trucks to one vehicle list | interfaces |
+| [E-Commerce System](ECommerceSystem/) | Browse a catalog, add items to a cart, and place an order | packages, classes, `Scanner` |
 | [Employee Stream Project](EmployeeStreamProject/) | Filter and analyze a list of employees | Java Streams, lambdas, `ArrayList` |
+| [Thread Clock](ThreadClock/) | Two threads share a clock: one updates the time, the other displays it | threads, `synchronized`, `volatile` |
 
 ### Run the larger projects
 
@@ -78,6 +80,16 @@ java RentalApp
 cd EmployeeStreamProject
 javac *.java
 java EmployeeAnalyzer
+
+# E-Commerce System
+cd ECommerceSystem
+javac com/ecommerce/*.java com/ecommerce/orders/*.java Main.java
+java Main
+
+# Thread Clock (press Enter to stop)
+cd ThreadClock
+javac *.java
+java ClockApp
 ```
 
 ## Skills this repo shows
@@ -89,6 +101,8 @@ java EmployeeAnalyzer
 - Arrays, `ArrayList`, and `HashMap`
 - A small Swing GUI
 - Java Streams
+- Packages (`com.ecommerce`)
+- Threads and synchronization
 
 ## How to browse this repository
 
