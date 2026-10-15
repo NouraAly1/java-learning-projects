@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Compiled Java
+*.class
+
+# Local practice. Keep these off GitHub.
+/frequencyCountingUsingHashMap.java
+/mostFrequentCgaracter.java
+/twoSum.java
+/practiceForInternship/
+/test/

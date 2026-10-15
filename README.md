@@ -57,6 +57,12 @@ java CourseSystem.Main
 | [Thread Clock](ThreadClock/) | Two threads share a clock: one updates the time, the other displays it | threads, `synchronized`, `volatile` |
 | [Library Catalog](LibraryCatalog/) | Menu to add, remove, search, and view books, DVDs, and magazines in one catalog | abstract class, inheritance, generics, checked exceptions, `LinkedHashMap` |
 
+### Data structures
+
+| Project | What it does | Java concepts |
+| --- | --- | --- |
+| [CityNet](Data%20structure%20projects/CityNet/CityNet.java) | Handles traffic alerts and jammed junctions by urgency, then searches for a shortest route and a signal plan | `PriorityQueue`, records, recursion, backtracking |
+
 ### Run the larger projects
 
 ```bash
@@ -99,6 +105,11 @@ java CatalogApp
 
 # Library Catalog tests (prints PASS or FAIL for each check)
 java CatalogTest
+
+# CityNet
+cd "Data structure projects/CityNet"
+javac CityNet.java
+java CityNet
 ```
 
 ## Skills this repo shows
@@ -114,6 +125,7 @@ java CatalogTest
 - Threads and synchronization
 - Generics with a type bound (`Catalog<T extends LibraryItem>`)
 - Custom checked exceptions
+- Heaps with `PriorityQueue`, recursion, and backtracking
 
 ## How to browse this repository
 
