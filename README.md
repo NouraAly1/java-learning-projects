@@ -55,6 +55,7 @@ java CourseSystem.Main
 | [E-Commerce System](ECommerceSystem/) | Browse a catalog, add items to a cart, and place an order | packages, classes, `Scanner` |
 | [Employee Stream Project](EmployeeStreamProject/) | Filter and analyze a list of employees | Java Streams, lambdas, `ArrayList` |
 | [Thread Clock](ThreadClock/) | Two threads share a clock: one updates the time, the other displays it | threads, `synchronized`, `volatile` |
+| [Library Catalog](LibraryCatalog/) | Menu to add, remove, search, and view books, DVDs, and magazines in one catalog | abstract class, inheritance, generics, checked exceptions, `LinkedHashMap` |
 
 ### Run the larger projects
 
@@ -90,6 +91,14 @@ java Main
 cd ThreadClock
 javac *.java
 java ClockApp
+
+# Library Catalog
+cd LibraryCatalog
+javac *.java
+java CatalogApp
+
+# Library Catalog tests (prints PASS or FAIL for each check)
+java CatalogTest
 ```
 
 ## Skills this repo shows
@@ -103,6 +112,8 @@ java ClockApp
 - Java Streams
 - Packages (`com.ecommerce`)
 - Threads and synchronization
+- Generics with a type bound (`Catalog<T extends LibraryItem>`)
+- Custom checked exceptions
 
 ## How to browse this repository
 
